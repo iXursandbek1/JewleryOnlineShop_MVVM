@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let vc = MainTabBarController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 
 
