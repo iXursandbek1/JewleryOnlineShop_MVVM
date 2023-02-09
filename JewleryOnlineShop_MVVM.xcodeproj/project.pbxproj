@@ -14,6 +14,7 @@
 		04B3366C2994ABE600B805DC /* JewleryOnlineShop_MVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B3366A2994ABE600B805DC /* JewleryOnlineShop_MVVM.xcdatamodeld */; };
 		04B3366E2994ABE700B805DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3366D2994ABE700B805DC /* Assets.xcassets */; };
 		04B336712994ABE700B805DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3366F2994ABE700B805DC /* LaunchScreen.storyboard */; };
+		A35C07BDD78953529BE01195 /* Pods_JewleryOnlineShop_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFEDF18D27F9B8CFBD6EB62 /* Pods_JewleryOnlineShop_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		04B3366D2994ABE700B805DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B336702994ABE700B805DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B336722994ABE700B805DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC35CD712F917FC268F0A29E /* Pods-JewleryOnlineShop_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JewleryOnlineShop_MVVM.release.xcconfig"; path = "Target Support Files/Pods-JewleryOnlineShop_MVVM/Pods-JewleryOnlineShop_MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		F6C24984BF3985A45712A8F3 /* Pods-JewleryOnlineShop_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JewleryOnlineShop_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-JewleryOnlineShop_MVVM/Pods-JewleryOnlineShop_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		FEFEDF18D27F9B8CFBD6EB62 /* Pods_JewleryOnlineShop_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JewleryOnlineShop_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35C07BDD78953529BE01195 /* Pods_JewleryOnlineShop_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				04B336602994ABE600B805DC /* JewleryOnlineShop_MVVM */,
 				04B3365F2994ABE600B805DC /* Products */,
+				EADCECB010255D8476B56C5D /* Pods */,
+				1900270B385C001E27A47156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,24 @@
 			path = JewleryOnlineShop_MVVM;
 			sourceTree = "<group>";
 		};
+		1900270B385C001E27A47156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEFEDF18D27F9B8CFBD6EB62 /* Pods_JewleryOnlineShop_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EADCECB010255D8476B56C5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C24984BF3985A45712A8F3 /* Pods-JewleryOnlineShop_MVVM.debug.xcconfig */,
+				BC35CD712F917FC268F0A29E /* Pods-JewleryOnlineShop_MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B336752994ABE700B805DC /* Build configuration list for PBXNativeTarget "JewleryOnlineShop_MVVM" */;
 			buildPhases = (
+				F5BBF85CBA44A12F20CF9F82 /* [CP] Check Pods Manifest.lock */,
 				04B3365A2994ABE600B805DC /* Sources */,
 				04B3365B2994ABE600B805DC /* Frameworks */,
 				04B3365C2994ABE600B805DC /* Resources */,
+				CEC63AC1153D5C77F4E79011 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEC63AC1153D5C77F4E79011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JewleryOnlineShop_MVVM/Pods-JewleryOnlineShop_MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JewleryOnlineShop_MVVM/Pods-JewleryOnlineShop_MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JewleryOnlineShop_MVVM/Pods-JewleryOnlineShop_MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5BBF85CBA44A12F20CF9F82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JewleryOnlineShop_MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04B3365A2994ABE600B805DC /* Sources */ = {
@@ -286,6 +355,7 @@
 		};
 		04B336762994ABE700B805DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C24984BF3985A45712A8F3 /* Pods-JewleryOnlineShop_MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +384,7 @@
 		};
 		04B336772994ABE700B805DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC35CD712F917FC268F0A29E /* Pods-JewleryOnlineShop_MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
