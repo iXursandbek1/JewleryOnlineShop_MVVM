@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048638EA29A0F336006BF93B /* LikedControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048638E929A0F336006BF93B /* LikedControllerTableViewCell.swift */; };
 		04B336622994ABE600B805DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336612994ABE600B805DC /* AppDelegate.swift */; };
 		04B336642994ABE600B805DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336632994ABE600B805DC /* SceneDelegate.swift */; };
 		04B336662994ABE600B805DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336652994ABE600B805DC /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048638E929A0F336006BF93B /* LikedControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedControllerTableViewCell.swift; sourceTree = "<group>"; };
 		04B3365E2994ABE600B805DC /* JewleryOnlineShop_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JewleryOnlineShop_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B336612994ABE600B805DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B336632994ABE600B805DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				04B336952994B99B00B805DC /* LikedViewController.swift */,
+				048638E929A0F336006BF93B /* LikedControllerTableViewCell.swift */,
 			);
 			path = LikedView;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				04B336912994B86F00B805DC /* MainTabBarController.swift in Sources */,
 				04B336882994B73400B805DC /* BaseCollectionViewCell.swift in Sources */,
 				04B3368E2994B7FE00B805DC /* ViewModel.swift in Sources */,
+				048638EA29A0F336006BF93B /* LikedControllerTableViewCell.swift in Sources */,
 				04B336A62994C1B300B805DC /* SelectedViewController.swift in Sources */,
 				04B3369D2994BA9200B805DC /* HomeViewController.swift in Sources */,
 				04B336832994B6A200B805DC /* AppURL.swift in Sources */,

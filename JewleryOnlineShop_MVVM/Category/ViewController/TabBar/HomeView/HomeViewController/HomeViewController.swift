@@ -40,7 +40,8 @@ class HomeViewController: BaseViewController, getCategoryNameProtocol {
         verticalCollectiomView.register(Header.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "header")
         verticalCollectiomView.snp.makeConstraints { make in
             make.center.equalTo(view.snp.center)
-            make.height.equalTo(view.snp.height)
+            make.top.equalTo(view.snp.top).offset(50)
+            make.bottom.equalTo(view.snp.bottom)
             make.width.equalTo(view.snp.width)
         }
         

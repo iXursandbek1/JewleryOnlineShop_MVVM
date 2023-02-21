@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = ""
         let vc = MainTabBarController()
         navigationController?.pushViewController(vc, animated: true)
     }
