@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048638EA29A0F336006BF93B /* LikedControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048638E929A0F336006BF93B /* LikedControllerTableViewCell.swift */; };
+		0486396F29AD061B006BF93B /* FavoriteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486396E29AD061B006BF93B /* FavoriteDataManager.swift */; };
+		0486397129AD0653006BF93B /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486397029AD0653006BF93B /* BaseTableViewCell.swift */; };
+		0486397329AD075E006BF93B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486397229AD075E006BF93B /* InfoViewController.swift */; };
+		0486397529AD077D006BF93B /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486397429AD077D006BF93B /* InfoViewModel.swift */; };
+		0486397729AD079D006BF93B /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486397629AD079D006BF93B /* InfoModel.swift */; };
+		0486397929AD07F8006BF93B /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486397829AD07F8006BF93B /* FavoriteViewController.swift */; };
+		0486397B29AD081D006BF93B /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486397A29AD081C006BF93B /* FavoriteViewModel.swift */; };
+		0486397D29AD0848006BF93B /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486397C29AD0848006BF93B /* FavoritesTableViewCell.swift */; };
 		04B336622994ABE600B805DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336612994ABE600B805DC /* AppDelegate.swift */; };
 		04B336642994ABE600B805DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336632994ABE600B805DC /* SceneDelegate.swift */; };
 		04B336662994ABE600B805DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336652994ABE600B805DC /* ViewController.swift */; };
@@ -23,18 +30,23 @@
 		04B3368A2994B74B00B805DC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336892994B74B00B805DC /* BaseViewController.swift */; };
 		04B3368E2994B7FE00B805DC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3368D2994B7FE00B805DC /* ViewModel.swift */; };
 		04B336912994B86F00B805DC /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336902994B86F00B805DC /* MainTabBarController.swift */; };
-		04B336962994B99B00B805DC /* LikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336952994B99B00B805DC /* LikedViewController.swift */; };
 		04B336982994BA0000B805DC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336972994BA0000B805DC /* SettingsViewController.swift */; };
 		04B3369D2994BA9200B805DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3369C2994BA9200B805DC /* HomeViewController.swift */; };
 		04B3369F2994BACE00B805DC /* VerticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3369E2994BACE00B805DC /* VerticalCollectionViewCell.swift */; };
 		04B336A12994BB7700B805DC /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336A02994BB7700B805DC /* Header.swift */; };
 		04B336A32994BBB300B805DC /* HorizontalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336A22994BBB300B805DC /* HorizontalCollectionView.swift */; };
-		04B336A62994C1B300B805DC /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B336A52994C1B300B805DC /* SelectedViewController.swift */; };
 		A35C07BDD78953529BE01195 /* Pods_JewleryOnlineShop_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFEDF18D27F9B8CFBD6EB62 /* Pods_JewleryOnlineShop_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		048638E929A0F336006BF93B /* LikedControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedControllerTableViewCell.swift; sourceTree = "<group>"; };
+		0486396E29AD061B006BF93B /* FavoriteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDataManager.swift; sourceTree = "<group>"; };
+		0486397029AD0653006BF93B /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		0486397229AD075E006BF93B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0486397429AD077D006BF93B /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
+		0486397629AD079D006BF93B /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
+		0486397829AD07F8006BF93B /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		0486397A29AD081C006BF93B /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		0486397C29AD0848006BF93B /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
 		04B3365E2994ABE600B805DC /* JewleryOnlineShop_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JewleryOnlineShop_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B336612994ABE600B805DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B336632994ABE600B805DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,13 +64,11 @@
 		04B336892994B74B00B805DC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		04B3368D2994B7FE00B805DC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		04B336902994B86F00B805DC /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		04B336952994B99B00B805DC /* LikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedViewController.swift; sourceTree = "<group>"; };
 		04B336972994BA0000B805DC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		04B3369C2994BA9200B805DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04B3369E2994BACE00B805DC /* VerticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCollectionViewCell.swift; sourceTree = "<group>"; };
 		04B336A02994BB7700B805DC /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		04B336A22994BBB300B805DC /* HorizontalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionView.swift; sourceTree = "<group>"; };
-		04B336A52994C1B300B805DC /* SelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
 		BC35CD712F917FC268F0A29E /* Pods-JewleryOnlineShop_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JewleryOnlineShop_MVVM.release.xcconfig"; path = "Target Support Files/Pods-JewleryOnlineShop_MVVM/Pods-JewleryOnlineShop_MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		F6C24984BF3985A45712A8F3 /* Pods-JewleryOnlineShop_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JewleryOnlineShop_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-JewleryOnlineShop_MVVM/Pods-JewleryOnlineShop_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		FEFEDF18D27F9B8CFBD6EB62 /* Pods_JewleryOnlineShop_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JewleryOnlineShop_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0486396D29AD05E3006BF93B /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0486396E29AD061B006BF93B /* FavoriteDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
 		04B336552994ABE600B805DC = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +118,7 @@
 				04B3367D2994B54500B805DC /* AppDelegate */,
 				04B3367C2994B53600B805DC /* Model */,
 				04B3367B2994B52500B805DC /* Repository */,
+				0486396D29AD05E3006BF93B /* DataManager */,
 				04B3367A2994B51600B805DC /* Base */,
 				04B336792994B50300B805DC /* View */,
 				04B336782994B4F800B805DC /* Category */,
@@ -133,6 +152,7 @@
 			children = (
 				04B336872994B73400B805DC /* BaseCollectionViewCell.swift */,
 				04B336892994B74B00B805DC /* BaseViewController.swift */,
+				0486397029AD0653006BF93B /* BaseTableViewCell.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -194,7 +214,7 @@
 			children = (
 				04B336902994B86F00B805DC /* MainTabBarController.swift */,
 				04B336922994B8E700B805DC /* HomeView */,
-				04B336932994B91800B805DC /* LikedView */,
+				04B336932994B91800B805DC /* FavoriteViewController */,
 				04B336942994B92900B805DC /* SettingsView */,
 			);
 			path = TabBar;
@@ -204,18 +224,19 @@
 			isa = PBXGroup;
 			children = (
 				04B3369B2994BA6A00B805DC /* HomeViewController */,
-				04B336A42994C0CE00B805DC /* SelectedViewController */,
+				04B336A42994C0CE00B805DC /* InfoViewController */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
 		};
-		04B336932994B91800B805DC /* LikedView */ = {
+		04B336932994B91800B805DC /* FavoriteViewController */ = {
 			isa = PBXGroup;
 			children = (
-				04B336952994B99B00B805DC /* LikedViewController.swift */,
-				048638E929A0F336006BF93B /* LikedControllerTableViewCell.swift */,
+				0486397829AD07F8006BF93B /* FavoriteViewController.swift */,
+				0486397A29AD081C006BF93B /* FavoriteViewModel.swift */,
+				0486397C29AD0848006BF93B /* FavoritesTableViewCell.swift */,
 			);
-			path = LikedView;
+			path = FavoriteViewController;
 			sourceTree = "<group>";
 		};
 		04B336942994B92900B805DC /* SettingsView */ = {
@@ -253,12 +274,14 @@
 			path = HomeViewController;
 			sourceTree = "<group>";
 		};
-		04B336A42994C0CE00B805DC /* SelectedViewController */ = {
+		04B336A42994C0CE00B805DC /* InfoViewController */ = {
 			isa = PBXGroup;
 			children = (
-				04B336A52994C1B300B805DC /* SelectedViewController.swift */,
+				0486397229AD075E006BF93B /* InfoViewController.swift */,
+				0486397429AD077D006BF93B /* InfoViewModel.swift */,
+				0486397629AD079D006BF93B /* InfoModel.swift */,
 			);
-			path = SelectedViewController;
+			path = InfoViewController;
 			sourceTree = "<group>";
 		};
 		1900270B385C001E27A47156 /* Frameworks */ = {
@@ -393,26 +416,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0486397D29AD0848006BF93B /* FavoritesTableViewCell.swift in Sources */,
+				0486397929AD07F8006BF93B /* FavoriteViewController.swift in Sources */,
 				04B3367F2994B66800B805DC /* CategoriesModel.swift in Sources */,
 				04B336662994ABE600B805DC /* ViewController.swift in Sources */,
 				04B336912994B86F00B805DC /* MainTabBarController.swift in Sources */,
 				04B336882994B73400B805DC /* BaseCollectionViewCell.swift in Sources */,
 				04B3368E2994B7FE00B805DC /* ViewModel.swift in Sources */,
-				048638EA29A0F336006BF93B /* LikedControllerTableViewCell.swift in Sources */,
-				04B336A62994C1B300B805DC /* SelectedViewController.swift in Sources */,
+				0486397B29AD081D006BF93B /* FavoriteViewModel.swift in Sources */,
 				04B3369D2994BA9200B805DC /* HomeViewController.swift in Sources */,
 				04B336832994B6A200B805DC /* AppURL.swift in Sources */,
 				04B3366C2994ABE600B805DC /* JewleryOnlineShop_MVVM.xcdatamodeld in Sources */,
+				0486396F29AD061B006BF93B /* FavoriteDataManager.swift in Sources */,
 				04B336A12994BB7700B805DC /* Header.swift in Sources */,
 				04B3369F2994BACE00B805DC /* VerticalCollectionViewCell.swift in Sources */,
+				0486397329AD075E006BF93B /* InfoViewController.swift in Sources */,
 				04B3368A2994B74B00B805DC /* BaseViewController.swift in Sources */,
-				04B336962994B99B00B805DC /* LikedViewController.swift in Sources */,
 				04B336A32994BBB300B805DC /* HorizontalCollectionView.swift in Sources */,
+				0486397129AD0653006BF93B /* BaseTableViewCell.swift in Sources */,
+				0486397529AD077D006BF93B /* InfoViewModel.swift in Sources */,
 				04B336982994BA0000B805DC /* SettingsViewController.swift in Sources */,
 				04B336812994B68500B805DC /* CategoriesRepository.swift in Sources */,
 				04B336622994ABE600B805DC /* AppDelegate.swift in Sources */,
 				04B336862994B6C100B805DC /* String.swift in Sources */,
 				04B336642994ABE600B805DC /* SceneDelegate.swift in Sources */,
+				0486397729AD079D006BF93B /* InfoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

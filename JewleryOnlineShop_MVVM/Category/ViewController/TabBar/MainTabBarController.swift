@@ -20,7 +20,7 @@ class MainTabBarController: UITabBarController {
             let home = HomeViewController()
             home.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
             
-            let liked = LikedViewController()
+            let liked = FavoriteViewController()
             liked.tabBarItem = UITabBarItem(title: "Liked", image: UIImage(systemName: "heart"), selectedImage: UIImage(systemName: "heart.fill"))
             
             let settings = SettingsViewController()

@@ -71,13 +71,6 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         return cell
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        let vc = SelectedViewController()
-        vc.updateUI(with: viewModel.getItems(item: indexPath.item))
-        navigationController?.pushViewController(vc, animated: true)
-    }
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         return CGSize(width: view.frame.width / 2.5, height: view.frame.height / 4)
@@ -105,6 +98,11 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     
     func getCategoryName(_ categoryName: Int) {
         viewModel.index = categoryName
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = InfoModule.create(jewelery: viewModel.getItems(item: indexPath.item))
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }
